@@ -16,17 +16,13 @@ int main() {
         }
         puts("");
     }
-    puts("");
 
     for(int i = 0; i < n; i++){
-        if(i <= n){
-            sum = 0;
-        } 
         for(int j = 0; j < n; j++){
-            sum += arr[i][j];
+            sum += arr[i][j];   
         }
-        printf("%d - qarorda %d\n", i + 1, sum);
+        printf("%d\n", sum);
     }
-
-return 0;    
+    
+    return 0;    
 }
